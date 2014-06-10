@@ -1,0 +1,18 @@
+name: "sm Second Jekyll Site"
+description: "my second Jekyll site"
+
+url: "http://s-millerdesign.github.io/smSecondsite"
+baseurl: "/smSecondsite"
+
+paginate: 10 #quotes not needed, means make new page after 10 posts as generalization
+
+markdown: rdiscount  #way of parsing markdown files
+
+permalink: pretty #pretty permalinks means 4... auto-generated adds ???? and other ugly items in url every page on line after a .com has a permalink
+
+pygments: true #text renderer, allows some markdown to work better
+
+#Use same conf file in all sites
+
+
+
