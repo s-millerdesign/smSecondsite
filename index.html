@@ -11,9 +11,9 @@ title: main page
 		{% for post in site.posts %} <!--referencing posts in site: for every post in this folder do the following for every one  -->
 		
 		<h3>
-		<a href="{{ site.baseurl}} {{ post.url }}">
-		{{post.title}}</h3>
-		</a>
+		<a href="{{ site.baseurl}}{{ post.url }}">
+		{{post.title}}
+		</a></h3>
 		
 		<p>{{post.content}}</p>
 
