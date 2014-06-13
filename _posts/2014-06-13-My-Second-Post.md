@@ -1,6 +1,8 @@
 ---
 layout: post
 title: My Second Post
+tag: "second"
+
 ---
 
 <h2>This is my second Jekyll post</h2>
