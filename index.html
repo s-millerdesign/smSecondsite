@@ -6,6 +6,13 @@ title: main page
 <section>
 	<article class="container">
 		<h1>this is all my content</h1>
-		<h4><a href="{{ site.baseurl }}/pageTwo/">link to second page</a></h4>
+		<h4>I'm going to put some posts now:</h4>
+		
+		{% for post in site.posts %} <!--referencing posts in site: for every post in this folder do the following for every one  -->
+		
+		<p>{{post.title}}</p>
+
+		{% endfor %}
+		
 	</article>
 </section>
