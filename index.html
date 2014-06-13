@@ -10,7 +10,8 @@ title: main page
 		
 		{% for post in site.posts %} <!--referencing posts in site: for every post in this folder do the following for every one  -->
 		
-		<p>{{post.title}}</p>
+		<h3>{{post.title}}</h3>
+		<p>{{post.content}}</p>
 
 		{% endfor %}
 		
