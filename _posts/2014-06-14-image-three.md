@@ -5,4 +5,4 @@ tag: size
 category: image
 ---
 
-![Alternate Text](images/lego-car-creation-4.jpg)
+![Alternate Text]({{ site.baseurl}}/images/lego-car-creation-4.jpg)

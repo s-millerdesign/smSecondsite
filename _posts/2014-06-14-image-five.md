@@ -5,4 +5,6 @@ tag: paperweight
 category: image
 ---
 
-![Alternate Text](images/web_paperweight_10.jpg)
+![Alternate Text]({{ site.baseurl}}/images/web_paperweight_10.jpg)
+
+
