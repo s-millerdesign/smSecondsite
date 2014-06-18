@@ -1,7 +1,7 @@
 name: "sm Second Jekyll Site"
 description: "my second Jekyll site"
 
-url: "http://s-millerdesign.github.io/smSecondsite"
+url: "http://0.0.0.0:4000/smSecondsite/"
 baseurl: "/smSecondsite"
 
 paginate: 10 #quotes not needed, means make new page after 10 posts as generalization
